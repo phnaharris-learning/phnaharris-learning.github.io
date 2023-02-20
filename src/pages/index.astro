@@ -8,36 +8,79 @@ const posts = (await getCollection("blog")).sort(
 );
 
 const last_posts = posts.slice(0, 3);
+
+const blog_url = "https://phnaharris.github.io/blog";
 ---
 
 <BaseLayout>
   <div class="pb-12 mt-5">
     <div class="text-xl py-1">Hey there 👋</div>
-    <div class="text-5xl font-bold">I'm Manuel Ernesto</div>
-    <div class="text-3xl py-3 font-bold">
-      Software Engineer and Entrepreneur
-    </div>
+    <div class="text-5xl font-bold">I'm Nam Anh Pham Hoang (Harris)</div>
+    <div class="text-3xl py-3 font-bold">Software Engineer</div>
     <div class="py-2">
       <text class="text-lg">
-        I made this template for everyone who needs to create a personal website
-        easily and quickly. This template includes Project Section, CV Section,
-        Store, Paginated Blog, RSS Feed, SEO Friendly, Responsive Desing and 29
-        Visual themes. I hope you find it useful!
+        Hi everyone, I'm Anh, or you can call me Harris. <br />
+        I'm a Computer Science student in VNUHCM - University of Science. I have
+        a passion for Blockchain programming, Ethereum, cryptocurrency and something
+        related. Currently I'm learning about Blockchain and Solidity, and I also
+        looking for an internship in that field. Please let me know via messaging
+        or email for me by
+        <a
+          class="highlight-link"
+          href="mailto:phnanh.harris@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          phnanh.harris@gmail.com
+        </a>
+        if you are looking for intern and feel interested in my
+        <a
+          class="highlight-link"
+          href="./assets/cv/[CV][Nam Anh Pham Hoang (Harris)].pdf"
+          target="_blank"
+          rel="noreferrer"
+        >
+          curriculum vitae
+        </a>. I also have a Vietnamese personal blog at <a
+          class="highlight-link"
+          href={blog_url}
+          target="_blank"
+          rel="noreferrer"
+        >
+          here
+        </a>
+        . Browse
+        <a
+          class="highlight-link"
+          href={blog_url}
+          target="_blank"
+          rel="noreferrer"
+        >
+          it
+        </a>
+        and you'll read many posts about some topics that interest me like technology,
+        wine, and motorbikes. <br /> Starting to work while studying in university
+        was an opportunity and a challenge for me in my career as a programmer. The
+        first experiences on this road help me a lot in work and life, have more
+        lessons and friends that are important in my career path later.
       </text>
     </div>
+
     <div class="mt-8">
-      <a class="btn" href="https://twitter.com/manuelernestog" target="_blank">
+      <a class="btn" href="https://twitter.com/phnaharris" target="_blank">
         Let's connect!</a
       >
       <a
-        href="https://github.com/manuelernestog/astro-modern-personal-website"
+        href="./assets/cv/[CV][Nam Anh Pham Hoang (Harris)].pdf"
         target="_blank"
         class="btn btn-outline ml-5"
       >
-        Get This template</a
+        Browse my CV (PDF)</a
       >
     </div>
   </div>
+
+  <!---
 
   <div>
     <div class="text-3xl w-full font-bold mb-2">My last projects {"</>"}</div>
@@ -65,6 +108,8 @@ const last_posts = posts.slice(0, 3);
     url="#"
     badge="FOSS"
   />
+
+  --->
 
   <div>
     <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
