@@ -661,7 +661,7 @@
     });
   });
 
-  function updateTheme(newTheme) {
+  function updateTheme(newTheme: any) {
     document.querySelector("html").setAttribute("data-theme", newTheme);
     window.localStorage.setItem("data-theme", newTheme);
   }

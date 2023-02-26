@@ -11,6 +11,8 @@ Chuỗi bài viết [Blockchain Fundamentals](/tag/Blockchain Fundamentals/) c�
 
 Những thông tin trong bài viết của mình được trích từ khóa học cùng tên [Blockchain Fundamentals](https://www.youtube.com/playlist?list=PLxVihxZC42nF_MCN9PTvZMIifRjx9cZ2J) của tác giả Bill Laboon, Web3 Foundation. Nếu có hứng thú với lĩnh vực này, hãy học khóa học và trao đổi thêm với mình về những suy nghĩ của bạn nhé.
 
+# Table of Contents
+
 # Tiền tệ - phương tiện trao đổi giá trị của con người
 
 Từ xa xưa, con người đã dùng rất nhiều loại vật chất khác nhau để trao đổi hàng hóa và dịch vụ. Từ câu chuyện người ta trao đổi với nhau bằng những vật chất theo nhu cầu của mình (như anh đưa cho tôi một con gà, tôi trả lại anh hai bó rau), cho đến những vật chất được dùng làm quy chuẩn chung để trao đổi như lông chim (được sử dụng trên đảo Santa Cruz) hay đá (được sử dụng trên đảo Yap, Thái Bình Dương)... Một trong những công cụ trao đổi giá trị phổ biến nhất mà chúng ta từng biết là vàng, và sau đó là tiền giấy và tiền ghi nợ (tiền gửi ngân hàng) như chúng ta vẫn hay sử dụng ngày nay. Nhìn chung thì các hình thức trao đổi giá trị ở trên thuộc vào hai dạng chính: tín dụng (tiền ghi nợ, tiền gửi ngân hàng...) và tiền vật chất (vàng, tiền giấy, tiền xu, ...). Những hình thức này của tiền đều mang một số tính chất chung như:

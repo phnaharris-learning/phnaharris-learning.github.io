@@ -11,6 +11,8 @@ Những thông tin trong bài viết của mình được trích từ khóa họ
 
 Ở bài viết trước, mình đã giới thiệu cho các bạn về các hình thức mã hóa thông tin được sử dụng phổ biến, các đặc điểm và ứng dụng của chúng. Ở bài viết này, mình sẽ đưa ra những khái niệm cơ bản nhất về **cryptographic hash function (hàm băm mật mã)**, những tính chất cần có của một hash function và ứng dụng của những tính chất đó trong thực tế.
 
+# Table of Contents
+
 # Hash function là cái chi chi?
 
 Hash function là một hàm toán học, nhận **giá trị đầu vào tùy ý** (mà ta gọi là **message**) và trả về một giá trị có **độ dài cố định**, gọi là **hash value** (hay hash, message digest...). Hash value có thể được sử dụng cho nhiều mục đích khác nhau: hash maps, data distribution, nearest neighbor search, …

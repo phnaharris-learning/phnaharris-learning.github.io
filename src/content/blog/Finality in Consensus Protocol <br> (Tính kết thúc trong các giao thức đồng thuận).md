@@ -7,6 +7,8 @@ heroImage: "/assets/blog/images/finality/finality.jpeg"
 
 Sau ba bài viết về Blockchain cơ bản, mình nghĩ mọi người cũng đã cảm thấy khá nhàm chán (_thực ra là mình cũng thấy chán_) với những kiến thức thuần túy là trên lý thuyết như vậy. Nhân lúc mình vừa có bài thuyết trình ở lớp về tính kết thúc của giao dịch trong các giao thức đồng thuận, đối với mình là một chủ đề khá thực tế, kiến thức của mình vẫn còn mới mẻ và đầy đủ thì mình muốn chia sẻ đến mọi người chủ đề này, phần nào làm giảm sự nhàm chán sau những bài viết thiếu tính thực tế vừa qua, phần nào giúp mình lưu trữ lại những phần kiến thức đã tìm hiểu được.
 
+# Table of Contents
+
 # Đặt vấn đề
 
 Giả sử bạn muốn vào một quán cafe để mua một ly cafe. Câu chuyện sẽ rất bình thường nếu bạn cứ thế mà vào quán, gọi nước, trả tiền (bằng tiền mặt hoặc thẻ tín dụng), ngay lập tức bạn có thể nhận một ly cafe tương ứng với số tiền mà bạn đã trả.

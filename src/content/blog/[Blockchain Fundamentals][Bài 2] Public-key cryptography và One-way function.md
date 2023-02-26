@@ -11,6 +11,8 @@ Những thông tin trong bài viết của mình được trích từ khóa họ
 
 Ở bài viết trước, mình đã giới thiệu cho các bạn về nhu cầu sử dụng tiền của loài người được hình thành như thế nào, giải thích về cách blockchain dần được phát triển từ những ngày sơ khai nhất, và Bitcoin được xem như là ứng dụng hiện đại đầu tiên của blockchain. Ở bài viết này, mình sẽ nói về các dạng thức mã hóa thông tin như **mã hóa khóa đối xứng (Symmetric-Key Encryption)** và **mã hóa bất đối xứng (Public-Key Encryption)**, ưu nhược điểm của hai dạng thức mã hóa này, cách Bitcoin sinh ra cặp **public-private key** và có những ý niệm sơ khai nhất về **One-way Function**, để từ đó ta có thể đi sâu hơn tìm hiểu về Hash function ở bài tiếp theo.
 
+# Table of Contents
+
 # Encryption [^2] (mã hóa)
 
 <div align="center">

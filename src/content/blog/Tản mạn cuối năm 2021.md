@@ -7,6 +7,8 @@ heroImage: "/post_img.webp"
 
 Một năm 2021 nhiều mất mát và tiếc nuối sắp qua, một năm 2022 với nhiều hi vọng sắp đến. Bài viết này được viết vào chiều ngày 31/12, tại một quán cafe cũng không gần nhà mình lắm, ngồi kế bên mình là một con bạc chính hiệu (_thực ra là bà chị mình, mình hay đùa với bả vậy :v_). Khoảng thời gian này mình thường sẽ dành ra một lúc để nhìn lại xem năm cũ vừa qua mình đã làm được những gì, và suy nghĩ về những dự định cho năm mới của mình. Năm 2021 là một năm nhiều cảm xúc đối với mình, một năm nhiều niềm vui và cũng nhận nhiều bài học sâu sắc, cũng phải trả giá khá nhiều cho những quyết định của mình nữa.
 
+# Table of Contents
+
 # Look back một chút
 
 Mình bắt đầu 2021 với một sự thức tỉnh mà đối với mình hiện tại sự thức tỉnh này là một dấu mốc lớn cho mình, về vấn đề tài chính cá nhân. COVID-19 đã làm thay đổi hoàn toàn nhận thức của mình về tiền bạc, đầu tư và tự do tài chính. Mình hiểu nhiều hơn về cách tiết kiệm, dù trước đây mình đã là một người sống khá tiết kiệm và tối giản rồi. Mình học một vài cách đầu tư, mất một chút "học phí" (_à vì mình đã có nhiều tiền đâu mà mất nhiều :v_) nhưng đối với mình, khoản "học phí" này khá là đáng giá. Và nếu để nói về những gì mình cảm thấy quan trọng nhất về tài chính và công việc trong năm vừa qua mà mình học được, có lẽ sẽ là hai câu nói: "Ai rồi cũng phải quay lại với nghề của chính mình." để ám chỉ về cách phân bổ thời gian ưu tiên trong cuộc sống và "Đầu tư là để mình thoải mái hơn, không phải để mình mệt mỏi hơn." để ẩn dụ về cách quản lý cảm xúc của mình khi đầu tư vào một loại hình nào đó.

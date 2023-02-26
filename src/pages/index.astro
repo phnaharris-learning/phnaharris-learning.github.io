@@ -1,21 +1,30 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
+import HorizontalProjectItem from "../components/HorizontalProjectItem.astro";
 import { getCollection } from "astro:content";
 
 const posts = (await getCollection("blog")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 
-const last_posts = posts.slice(0, 3);
+const projects = (await getCollection("project")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
 
-const blog_url = "https://phnaharris.github.io/blog";
+const last_posts = posts.slice(0, 3);
+const last_projects = projects.slice(0, 3);
+
+const blog_url = "/blog";
+
+const hyperlink_tailwind =
+  "highlight-link no-underline hover:underline text-blue-500";
 ---
 
 <BaseLayout>
   <div class="pb-12 mt-5">
     <div class="text-xl py-1">Hey there 👋</div>
-    <div class="text-5xl font-bold">I'm Nam Anh Pham Hoang (Harris)</div>
+    <div class="text-5xl font-bold">I'm Nam Anh Pham Hoang (Harris Pham)</div>
     <div class="text-3xl py-3 font-bold">Software Engineer</div>
     <div class="py-2">
       <text class="text-lg">
@@ -26,7 +35,7 @@ const blog_url = "https://phnaharris.github.io/blog";
         looking for an internship in that field. Please let me know via messaging
         or email for me by
         <a
-          class="highlight-link"
+          class={hyperlink_tailwind}
           href="mailto:phnanh.harris@gmail.com"
           target="_blank"
           rel="noreferrer"
@@ -35,14 +44,16 @@ const blog_url = "https://phnaharris.github.io/blog";
         </a>
         if you are looking for intern and feel interested in my
         <a
-          class="highlight-link"
+          class={hyperlink_tailwind}
           href="./assets/cv/[CV][Nam Anh Pham Hoang (Harris)].pdf"
           target="_blank"
           rel="noreferrer"
         >
           curriculum vitae
-        </a>. I also have a Vietnamese personal blog at <a
-          class="highlight-link"
+        </a>
+        . I also have a Vietnamese personal blog at
+        <a
+          class={hyperlink_tailwind}
           href={blog_url}
           target="_blank"
           rel="noreferrer"
@@ -51,7 +62,7 @@ const blog_url = "https://phnaharris.github.io/blog";
         </a>
         . Browse
         <a
-          class="highlight-link"
+          class={hyperlink_tailwind}
           href={blog_url}
           target="_blank"
           rel="noreferrer"
@@ -59,24 +70,24 @@ const blog_url = "https://phnaharris.github.io/blog";
           it
         </a>
         and you'll read many posts about some topics that interest me like technology,
-        wine, and motorbikes. <br /> Starting to work while studying in university
-        was an opportunity and a challenge for me in my career as a programmer. The
-        first experiences on this road help me a lot in work and life, have more
-        lessons and friends that are important in my career path later.
+        wine, and motorbikes.
+        <br />
+        Starting to work while studying in university was an opportunity and a challenge
+        for me in my career as a programmer. The first experiences on this road help
+        me a lot in work and life, have more lessons and friends that are important
+        in my career path later.
       </text>
     </div>
 
     <div class="mt-8">
-      <a class="btn" href="https://twitter.com/phnaharris" target="_blank">
-        Let's connect!</a
-      >
+      <a class="btn" href="/contact" target="_self"> Let's connect!</a>
       <a
         href="./assets/cv/[CV][Nam Anh Pham Hoang (Harris)].pdf"
         target="_blank"
         class="btn btn-outline ml-5"
       >
-        Browse my CV (PDF)</a
-      >
+        Browse my CV (PDF)
+      </a>
     </div>
   </div>
 
@@ -110,6 +121,25 @@ const blog_url = "https://phnaharris.github.io/blog";
   />
 
   --->
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Latest projects</div>
+  </div>
+
+  {
+    last_projects.map((project) => (
+      <>
+        <HorizontalProjectItem
+          title={project.data.title}
+          img={project.data.heroImage}
+          desc={project.data.description}
+          url={"/project/" + project.slug}
+          target="_self"
+        />
+        <div class="divider my-0" />
+      </>
+    ))
+  }
 
   <div>
     <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
